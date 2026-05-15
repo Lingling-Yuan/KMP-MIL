@@ -1,4 +1,3 @@
-
 """Metric and forgetting helpers for KMP-MIL."""
 
 from typing import Dict, Optional
