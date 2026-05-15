@@ -47,7 +47,7 @@ We use CONCH to extract patch-level features:
 - CONCH repository: [https://github.com/mahmoodlab/CONCH](https://github.com/mahmoodlab/CONCH)
 - CONCH pretrained model: [https://huggingface.co/MahmoodLab/CONCH](https://huggingface.co/MahmoodLab/CONCH)
 
-Please request access to the pretrained CONCH checkpoint on Hugging Face and follow its license and usage terms. The pretrained weights are not redistributed in this repository.
+Please request access to the pretrained CONCH checkpoint on Hugging Face and follow its license and usage terms. 
 
 One-line command:
 
