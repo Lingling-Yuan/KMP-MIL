@@ -8,9 +8,7 @@ Continual learning for pathological whole slide image (WSI) classification is ch
 
 
 1. **Growing knowledge memory pool:** KMP-MIL uses a growing KMP to store compact task-specific memory units, avoiding the replay of historical WSIs.
-
 2. **Query-based Top-K memory retrieval:** KMP-MIL designs a query-based mechanism for WSI-specific Top-K memory selection, and combines it with Prototype-conditioned Feature Calibration (PFC) and Textual Calibration (TC) in a shared vision-language space to improve adaptation and cross-organ semantic alignment.
-
 3. **Sequential cross-organ evaluation:** KMP-MIL is evaluated on sequential WSI classification across breast, lung, kidney, and esophagus datasets under both task-incremental continual learning (task-CL) and class-incremental continual learning (class-CL) settings, including reverse-order evaluation. It achieves strong performance with reduced forgetting and good storage efficiency.
 
 
