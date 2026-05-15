@@ -1,6 +1,4 @@
-﻿
-
-import os.path as osp
+﻿import os.path as osp
 from typing import Dict, List, Optional
 
 import numpy as np
