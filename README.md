@@ -6,7 +6,6 @@
 
 Continual learning for pathological whole slide image (WSI) classification is challenging because gigapixel slides, sparse diagnostic cues, and cross-organ domain shifts can intensify catastrophic forgetting. Knowledge Memory Pool Multiple Instance Learning (KMP-MIL) is a rehearsal-free continual multiple instance learning (MIL) framework that combines a frozen pathology foundation model with compact memory-based adaptation. Instead of storing historical WSIs or patch features for replay, it grows a Knowledge Memory Pool (KMP) and retrieves task-relevant memory units for feature calibration, MIL aggregation, and semantic classification in a shared vision-language space.
 
-Key innovations:
 
 1. **Growing knowledge memory pool:** KMP-MIL uses a growing KMP to store compact task-specific memory units, avoiding the replay of historical WSIs.
 
