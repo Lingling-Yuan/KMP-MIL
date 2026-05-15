@@ -18,15 +18,6 @@ Key innovations:
 ![Overview](overview.png)
 
 
-## Environment Setup
-
-Create and activate a Conda environment:
-
-```bash
-conda create -n kmpmil python=3.10 -y
-conda activate kmpmil
-pip install -r requirements.txt
-```
 
 This implementation uses CONCH as the frozen pathology foundation model. Please download the CONCH pretrained checkpoint separately and set `conch_ckpt_path` in `main.yaml`. Place the CONCH code as a top-level package, at the same level as `models/`.
 
