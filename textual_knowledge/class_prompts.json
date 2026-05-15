@@ -1,0 +1,106 @@
+﻿{
+    "classnames":  {
+                       "bracs":  {
+                                     "Benign":  [
+                                                    "benign breast tissue",
+                                                    "normal breast histology",
+                                                    "pathological benign breast lesion",
+                                                    "usual ductal hyperplasia",
+                                                    "benign breast proliferation",
+                                                    "N",
+                                                    "PB",
+                                                    "UDH"
+                                                ],
+                                     "Atypical":  [
+                                                      "atypical breast tissue",
+                                                      "flat epithelial atypia",
+                                                      "atypical ductal hyperplasia",
+                                                      "precancerous breast lesion",
+                                                      "intraepithelial neoplasia",
+                                                      "FEA",
+                                                      "ADH"
+                                                  ],
+                                     "Malignant":  [
+                                                       "malignant breast tumor",
+                                                       "ductal carcinoma in situ",
+                                                       "invasive breast carcinoma",
+                                                       "breast cancer",
+                                                       "invasive carcinoma",
+                                                       "DCIS",
+                                                       "IC"
+                                                   ]
+                                 },
+                       "tcga_lung":  {
+                                         "LUAD":  [
+                                                      "lung adenocarcinoma",
+                                                      "pulmonary adenocarcinoma",
+                                                      "primary lung adenocarcinoma",
+                                                      "adenocarcinoma of the lung",
+                                                      "LUAD"
+                                                  ],
+                                         "LUSC":  [
+                                                      "lung squamous cell carcinoma",
+                                                      "pulmonary squamous cell carcinoma",
+                                                      "primary lung squamous cell carcinoma",
+                                                      "squamous cell carcinoma of the lung",
+                                                      "LUSC"
+                                                  ]
+                                     },
+                       "tcga_rcc":  {
+                                        "CCRCC":  [
+                                                      "clear cell renal cell carcinoma",
+                                                      "renal clear cell carcinoma",
+                                                      "renal cell carcinoma, clear cell type",
+                                                      "clear cell RCC",
+                                                      "CCRCC"
+                                                  ],
+                                        "PRCC":  [
+                                                     "papillary renal cell carcinoma",
+                                                     "renal papillary carcinoma",
+                                                     "renal cell carcinoma, papillary type",
+                                                     "papillary RCC",
+                                                     "PRCC"
+                                                 ]
+                                    },
+                       "tcga_esca":  {
+                                         "ESAD":  [
+                                                      "esophageal adenocarcinoma",
+                                                      "Barrett-associated esophageal adenocarcinoma",
+                                                      "distal esophageal adenocarcinoma",
+                                                      "adenocarcinoma of the esophagus",
+                                                      "ESAD"
+                                                  ],
+                                         "ESCC":  [
+                                                      "esophageal squamous cell carcinoma",
+                                                      "squamous cell carcinoma of the esophagus",
+                                                      "esophagus squamous cell carcinoma",
+                                                      "esophageal SCC",
+                                                      "ESCC"
+                                                  ]
+                                     }
+                   },
+    "templates":  [
+                      "CLASSNAME",
+                      "a photomicrograph showing CLASSNAME",
+                      "a photomicrograph of CLASSNAME",
+                      "an image of CLASSNAME",
+                      "an image showing CLASSNAME",
+                      "an example of CLASSNAME",
+                      "CLASSNAME is shown",
+                      "this is CLASSNAME",
+                      "there is CLASSNAME",
+                      "a histopathological image showing CLASSNAME",
+                      "a histopathological image of CLASSNAME",
+                      "a histopathological photograph of CLASSNAME",
+                      "a histopathological photograph showing CLASSNAME",
+                      "shows CLASSNAME",
+                      "presence of CLASSNAME",
+                      "CLASSNAME is present",
+                      "an H\u0026E stained image of CLASSNAME",
+                      "an H\u0026E stained image showing CLASSNAME",
+                      "an H\u0026E image showing CLASSNAME",
+                      "an H\u0026E image of CLASSNAME",
+                      "CLASSNAME, H\u0026E stain",
+                      "CLASSNAME, H\u0026E"
+                  ]
+}

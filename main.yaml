@@ -1,0 +1,81 @@
+cuda_id: 0
+loss_function: cross_entropy
+result_dir: results
+task_num: 0
+epochs: [20, 20, 20, 20]
+bp_every_batch: 16
+eval_every_batch: 1
+pooling: max
+only_val_loss: false
+load_best_ckpt: true
+
+lambda_match: 1.0
+lambda_route: 0.5
+lambda_class_sim: 0.5
+route_margin: 0.05
+route_temperature: 0.07
+
+use_pfc: true
+pfc_reg_type: l2
+pfc_reg_weight: 0.1
+pfc_logit_scale: 20.0
+pfc_gamma_scale: 0.8
+pfc_beta_scale: 0.18
+
+cv:
+  enabled: true
+  subdir: CV10
+  k_folds: 10
+  fold_id: 1
+  run_all_folds: true
+  summary_csv: cv10_results_kmp_mil.csv
+
+dataset_names: [bracs, tcga_lung, tcga_rcc, tcga_esca]
+dataset_label_shift: [0, 3, 5, 7]
+dataset_subtype_num: [3, 2, 2, 2]
+dataset_root_dir: /path/to/DATA_ROOT
+path_split: /{}/datasplit/fold_{}.npz
+path_feat: /{}/feats-l1-s256_{}/pt_files
+path_table: /{}/table/{}_path_subtype_x10_processed.csv
+
+num_classes: 9
+class_prompts_path: textual_knowledge/class_prompts.json
+task_descriptors_path: textual_knowledge/task_descriptors.json
+feat_format: pt
+batch_size: 1
+num_workers: 4
+total_fold: 1
+shuffle_train: true
+
+base_model_arch: CONCH
+csm_logit_scale: 100
+alpha: 0.5
+max_norm: 1
+
+conch_ckpt_path: /path/to/CONCH/pytorch_model.bin
+conch_path_feat: CONCH
+
+pool_size: 10
+prompt_length: 24
+match_size: 5
+
+opt_name: adam
+adam_lr: 0.005
+adam_eps: 0.00000001
+adam_weight_decay: 0.0005
+
+lrs_name: ReduceLROnPlateau
+lrs_factor: 0.5
+lrs_patience: [3, 3, 3, 3]
+lrs_threshold: 0.0001
+lrs_warmup: 0
+lrs_mode: min
+lrs_threshold_mode: rel
+
+es_patience: [10, 10, 10, 10]
+es_warmup: 0
+es_threshold: 0.0001
+es_verbose: true
+
+b_metrics_list: [acc, auc, pr_auc]
+m_metrics_list: [acc, auc, pr_auc]

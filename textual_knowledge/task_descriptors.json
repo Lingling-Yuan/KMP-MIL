@@ -1,0 +1,50 @@
+﻿{
+    "bracs":  [
+                  "breast histology: normal terminal duct lobular units (TDLU) with two-cell layers (luminal and myoepithelial)",
+                  "breast histology: usual ductal hyperplasia (UDH) showing fenestrated, slit-like spaces and streaming cells",
+                  "breast histology: benign epithelial proliferation without cytologic atypia",
+                  "breast histology: flat epithelial atypia (FEA) with dilated acini lined by monomorphic columnar cells",
+                  "breast histology: atypical ductal hyperplasia (ADH) with rigid cribriform architecture and low-grade nuclei",
+                  "breast histology: monotonous cell population filling ducts but preserving some lumen",
+                  "breast histology: ductal carcinoma in situ (DCIS) with high-grade nuclear atypia and comedo necrosis",
+                  "breast histology: malignant cells confined within the ductal basement membrane",
+                  "breast histology: invasive carcinoma with irregular nests of tumor cells infiltrating the stroma",
+                  "breast histology: desmoplastic stromal reaction surrounding invasive malignant glands"
+              ],
+    "tcga_lung":  [
+                      "lung histology: lepidic growth along alveolar walls",
+                      "lung histology: acinar-predominant glands within lung parenchyma",
+                      "lung histology: papillary fronds projecting into alveolar spaces",
+                      "lung histology: micropapillary tufts floating in airspaces",
+                      "lung histology: solid growth with intracellular mucin in lung tumor cells",
+                      "lung histology: spread through air spaces (STAS) in pulmonary tissue",
+                      "lung histology: tumor cells replacing alveolar septa and effacing lung architecture",
+                      "lung histology: bronchiolar mucosa involvement adjacent to invasive tumor",
+                      "lung histology: anthracotic pigment/background lung parenchyma changes",
+                      "lung histology: pleural invasion with elastosis in lung specimens"
+                  ],
+    "tcga_rcc":  [
+                     "kidney histology: clear cytoplasm with lipid-glycogen vacuolization in renal tumor cells",
+                     "kidney histology: delicate branching \u0027chicken-wire\u0027 vasculature in clear cell RCC",
+                     "kidney histology: nested/alveolar architecture arising in renal cortex",
+                     "kidney histology: cystic change with hemorrhage in renal cell tumor",
+                     "kidney histology: tubulopapillary architecture with fibrovascular cores in papillary RCC",
+                     "kidney histology: foamy macrophages within papillary cores",
+                     "kidney histology: psammoma bodies in papillary renal neoplasm",
+                     "kidney histology: hemosiderin deposition/old hemorrhage in renal tumor",
+                     "kidney histology: renal tubular differentiation and peritubular patterning",
+                     "kidney histology: thick fibrous pseudocapsule at tumor-kidney interface"
+                 ],
+    "tcga_esca":  [
+                      "esophagus histology: Barrett\u0027s esophagus with intestinal metaplasia (goblet cells)",
+                      "esophagus histology: columnar-lined distal esophageal mucosa adjacent to tumor",
+                      "esophagus histology: high-grade dysplasia arising in Barrett mucosa",
+                      "esophagus histology: invasive glands beneath muscularis mucosae in esophageal wall",
+                      "esophagus histology: squamous dysplasia with basal cell hyperplasia in esophageal epithelium",
+                      "esophagus histology: elongation of lamina propria papillae in dysplastic squamous mucosa",
+                      "esophagus histology: infiltrative tumor nests invading esophageal submucosa",
+                      "esophagus histology: ulcerated esophageal mucosa with underlying carcinoma",
+                      "esophagus histology: submucosal gland/duct involvement in esophageal specimens",
+                      "esophagus histology: transmural/adventitial infiltration pattern in esophageal carcinoma"
+                  ]
+}
