@@ -1,5 +1,8 @@
 # [MICCAI 2026] KMP-MIL: Knowledge memory pool multiple instance learning with foundation model for continual whole slide image classification
-**Authors:** Lingling Yuan, Zhaoxia Yin, Yan Han, Jinghua Zhang, Marcin Grzegorzek, Chen Li*
+
+## Authors
+
+Lingling Yuan, Zhaoxia Yin, Yan Han, Jinghua Zhang, Marcin Grzegorzek, Chen Li*
 
 ## Abstract
 
